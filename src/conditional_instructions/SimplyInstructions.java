@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class SimplyInstructions {
     public static void main(String[] args) {
-        int age = 128;
+        int age = 15;
 
         if (age >= 0 && age <= 120) {
             System.out.println("CZLOWIEK - sprawdzam dalej");

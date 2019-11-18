@@ -31,7 +31,7 @@ public class Mathematics {
         System.out.println((int)measurment);
 
         char sign = 'a';
-        sign++;  // sign +=1;
+        sign++;   // sign += 1; lub sign = sign + 1;
         sign++;
         System.out.println(sign);
     }

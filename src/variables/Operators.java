@@ -27,6 +27,7 @@ public class Operators {
         String isMature = age >= 18 ? "jesteś dorosły" : "nie jesteś dorosły";
         System.out.println("Twój wiek to: " + age+ " - " +isMature);
         System.out.printf("Twój wiek to: %d - %s\n", age, isMature);*/
+
         /*int age;
         // utowrzenie obiektu Scanner pozwalającego na wprowadzenie wartości do konsoli -> System.in
         Scanner scanner = new Scanner(System.in);

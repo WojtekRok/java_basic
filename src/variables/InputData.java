@@ -11,13 +11,13 @@ public class InputData {
         // wprowadzam liczbę
         System.out.println("Wprowadź liczbę całkowitą: ");
         //scanner.useLocale(Locale.US); -> używamy jak chcemy wprowadzić kropkę zamiast przecinka
-        double number = scanner.nextDouble(); // ENTER -> \n
+        int number = scanner.nextInt(); // ENTER -> \n
         // aby skonsumować ENTER wykonujemy metodę nextLine()
         scanner.nextLine();
         //wprowadzam napis
         System.out.println("Wprowadź napis: ");
         String text = scanner.nextLine();
-        System.out.printf("Wprowadziłeś: %f i %s", number, text);
+        System.out.printf("Wprowadziłeś: %d i %s", number, text);
 
         // zamknięcie połączenia
         scanner.close();
